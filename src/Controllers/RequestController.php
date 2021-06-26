@@ -1,6 +1,8 @@
 <?php
 
-require_once("RequestInterface.php");
+namespace Application\Controllers;
+
+use Application\Interfaces\RequestInterface;
 
 
 class RequestController implements RequestInterface {
